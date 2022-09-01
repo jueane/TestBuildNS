@@ -10,3 +10,4 @@ dir
 
 "C:\Program Files\Unity\2020.3.19f1\Editor\Unity.exe" -quit -batchmode -nographics -projectPath C:\TestBuildNS -executeMethod Editor.TestBuild.PerformBuild  -stackTraceLogType Full  -logFile d:\1.txt
 
+-quit -batchmode -nographics -serial "${unity_publish_key}" -username "${unity_publish_user_name}" -password "${unity_publish_user_password}" -logFile "${WORKSPACE}/unity3d_editor.log" -buildTarget Switch -projectPath "D:\Publish\Switch\Project" -executeMethod CommandLineTools.BuildSwitchWithArgs
